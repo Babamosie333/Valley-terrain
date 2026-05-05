@@ -1,9 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "bundler/webpack.prod.js",
-      "use": "@vercel/static-build"
-    }
-  ],
+  "buildCommand": "npm run build",
   "outputDirectory": "dist"
 }
